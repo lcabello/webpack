@@ -1,0 +1,23 @@
+{
+  "name": "webpack-initial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcabello/webpack.git"
+  },
+  "keywords": [],
+  "author": "Luis Cabello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcabello/webpack/issues"
+  },
+  "homepage": "https://github.com/lcabello/webpack#readme",
+  "devDependencies": {
+    "webpack": "4.41.2"
+  }
+}

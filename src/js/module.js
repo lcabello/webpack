@@ -1,4 +1,4 @@
-const hello = () => console.log('hello')
+const hello = () => console.log('hello!')
 
 module.exports = {
   hello

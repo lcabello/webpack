@@ -1,1 +1,3 @@
 body{background:red}p{font-size:calc(12px + 9*(100vw - 420px)/860)}@media screen and (min-width:1280px){p{font-size:21px}}@media screen and (max-width:420px){p{font-size:12px}}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc2Nzcy9tYWluLnNjc3MiLCJ3ZWJwYWNrOi8vLzxubyBzb3VyY2U+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBLEtBQ0UsY0FIYyxDQUlmLEVDSkQsNENET3VCLENDUHZCLDZHIiwiZmlsZSI6Im1haW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGJvZHktY29sb3I6IHJlZDtcblxuYm9keSB7XG4gIGJhY2tncm91bmQ6ICRib2R5LWNvbG9yO1xufVxuXG5wIHtcbiAgZm9udC1zaXplOiByZXNwb25zaXZlO1xufSIsbnVsbF0sInNvdXJjZVJvb3QiOiIifQ==*/

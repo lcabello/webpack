@@ -2,6 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const BroserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -60,6 +61,15 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: 'Multiple bundles'
+    }),
+    new BroserSyncPlugin(
+      {
+      host: 'localhost',
+      port: 8080,
+      proxy: 'http://localhost:8080'
+    },
+    {
+      reload: false
     })
   ],
 }
